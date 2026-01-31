@@ -1,5 +1,4 @@
 
-
 def add(a,b):
     return a+b
 
@@ -58,7 +57,7 @@ while(True):
         
     
     print(result)
-    file=open("Baran_Calculator.txt","a")
+    file=open("theycreate_Calculator.txt","a")
     file.write(f"\t{num1} {operator} {num2} = {result}\n--------------------------------------------------\n")
     file.close()
  
@@ -70,7 +69,7 @@ while(True):
             break
            
         if(choice=="no"):
-            print("Thanks For Using Baran's Calculator!")
+            print("Thanks For Using theycreate's Calculator!")
             exit()
             
         else:
